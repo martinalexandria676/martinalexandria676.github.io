@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>悟空道路救援_南平汽车拖车搭电补胎脱困_高速救援覆盖延平建阳邵武武夷山</title>
+<meta name="description" content="悟空道路救援覆盖南平延平、建阳、邵武、武夷山、建瓯、顺昌、浦城、光泽、松溪、政和。提供汽车拖车、搭电、补胎换胎、脱困、开锁、送油及G3京台高速、G70福银高速、G7013沙南高速南平段救援。电话400-808-2010。">
+<meta name="keywords" content="南平道路救援,南平汽车拖车,南平汽车搭电,南平汽车脱困,南平高速道路救援,延平道路救援,建阳汽车拖车,武夷山高速救援">
+<link rel="canonical" href="https://martinalexandria676.github.io">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "悟空道路救援（南平）",
+  "description": "悟空道路救援南平服务点，覆盖南平市全域及下辖区县，提供汽车拖车、搭电、补胎换胎、脱困、开锁、送油及高速道路救援。",
+  "url": "https://martinalexandria676.github.io",
+  "telephone": "400-808-2010",
+  "areaServed": [
+    {"@type": "AdministrativeArea", "name": "延平区"},
+    {"@type": "AdministrativeArea", "name": "建阳区"},
+    {"@type": "AdministrativeArea", "name": "邵武市"},
+    {"@type": "AdministrativeArea", "name": "武夷山市"},
+    {"@type": "AdministrativeArea", "name": "建瓯市"},
+    {"@type": "AdministrativeArea", "name": "顺昌县"},
+    {"@type": "AdministrativeArea", "name": "浦城县"},
+    {"@type": "AdministrativeArea", "name": "光泽县"},
+    {"@type": "AdministrativeArea", "name": "松溪县"},
+    {"@type": "AdministrativeArea", "name": "政和县"}
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "南平市",
+    "addressRegion": "福建省"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "南平道路救援服务",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "南平汽车拖车"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "南平汽车搭电"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "南平汽车补胎换胎"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "南平汽车脱困"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "南平汽车开锁"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "南平高速道路救援"}}
+    ]
+  }
+}
+</script>
+<style>
+:root{
+  --ink:#1a2a3a;
+  --road:#d35400;
+  --asphalt:#2c3e50;
+  --fog:#ecf0f1;
+  --signal:#e74c3c;
+  --radius-a:14px;
+  --radius-b:28px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;
+  color:var(--ink);
+  background:#f7f8fa;
+  line-height:1.75;
+  padding-bottom:78px;
+}
+a{text-decoration:none;color:inherit;}
+img{display:block;max-width:100%;height:auto;}
+
+/* ===== 顶部信号条 ===== */
+.np-signal-bar{
+  background:var(--asphalt);
+  color:#fff;
+  font-size:13px;
+  padding:8px 16px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:6px;
+}
+.np-signal-bar strong{color:#f1c40f;}
+
+/* ===== 品牌头区 ===== */
+.wk-head-zone{
+  background:linear-gradient(118deg,#1a2a3a 0%,#2c3e50 72%,#34495e 100%);
+  padding:18px 16px 22px;
+  position:relative;
+  overflow:hidden;
+}
+.wk-head-zone::after{
+  content:"";
+  position:absolute;
+  right:-40px;top:-40px;
+  width:160px;height:160px;
+  border:3px dashed rgba(255,255,255,.12);
+  border-radius:50%;
+}
+.wk-brand-row{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  position:relative;
+  z-index:1;
+}
+.wk-brand-row img{
+  width:56px;height:56px;
+  border-radius:50%;
+  object-fit:cover;
+  border:2px solid rgba(255,255,255,.35);
+}
+.wk-brand-text h1{
+  color:#fff;
+  font-size:19px;
+  font-weight:800;
+  letter-spacing:1px;
+  line-height:1.3;
+}
+.wk-brand-text p{
+  color:#bdc3c7;
+  font-size:12.5px;
+  margin-top:2px;
+}
+.wk-call-inline{
+  margin-left:auto;
+  background:var(--signal);
+  color:#fff;
+  padding:9px 16px;
+  border-radius:50px;
+  font-size:14px;
+  font-weight:700;
+  white-space:nowrap;
+  box-shadow:0 4px 14px rgba(231,76,60,.4);
+}
+
+/* ===== 轮播带（静态文字 + 轻量切换） ===== */
+.fleet-scroll-strip{
+  display:flex;
+  overflow-x:auto;
+  scroll-snap-type:x mandatory;
+  gap:0;
+  scrollbar-width:none;
+  background:#000;
+}
+.fleet-scroll-strip::-webkit-scrollbar{display:none;}
+.fleet-slide{
+  flex:0 0 100%;
+  scroll-snap-align:start;
+  position:relative;
+}
+.fleet-slide img{
+  width:100%;
+  height:210px;
+  object-fit:cover;
+}
+.fleet-slide-caption{
+  position:absolute;
+  left:0;right:0;bottom:0;
+  background:linear-gradient(transparent,rgba(0,0,0,.72));
+  color:#fff;
+  padding:28px 16px 12px;
+  font-size:13.5px;
+}
+.fleet-slide-caption b{color:#f1c40f;}
+
+/* ===== 服务矩阵（卡片命名多样化） ===== */
+.wk-svc-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(158px,1fr));
+  gap:12px;
+  padding:22px 16px 6px;
+}
+.svc-tile{
+  background:#fff;
+  border-radius:var(--radius-a);
+  padding:16px 14px;
+  box-shadow:0 2px 10px rgba(0,0,0,.045);
+  border-left:4px solid var(--road);
+  transition:transform .2s;
+}
+.svc-tile:nth-child(3n){border-left-color:#8e44ad;}
+.svc-tile:nth-child(3n+2){border-left-color:#2980b9;}
+.svc-tile h3{
+  font-size:15px;
+  color:var(--asphalt);
+  margin-bottom:4px;
+}
+.svc-tile p{
+  font-size:12.5px;
+  color:#7f8c8d;
+  line-height:1.6;
+}
+
+/* ===== 地缘覆盖区块 ===== */
+.np-coverage-block{
+  margin:18px 16px;
+  background:#fff;
+  border-radius:var(--radius-b);
+  padding:22px 18px;
+  box-shadow:0 4px 18px rgba(0,0,0,.05);
+}
+.np-coverage-block h2{
+  font-size:17px;
+  color:var(--asphalt);
+  border-bottom:3px solid var(--road);
+  display:inline-block;
+  padding-bottom:5px;
+  margin-bottom:14px;
+}
+.county-pill-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:14px;
+}
+.county-pill{
+  background:var(--fog);
+  color:#2c3e50;
+  font-size:13px;
+  padding:5px 13px;
+  border-radius:30px;
+  font-weight:600;
+}
+.road-list-compact{
+  font-size:13.5px;
+  color:#555;
+  line-height:2;
+}
+.road-list-compact span{
+  display:inline-block;
+  background:#fef5e7;
+  color:#b9770e;
+  padding:1px 8px;
+  border-radius:4px;
+  margin:2px 3px;
+  font-size:12.5px;
+}
+
+/* ===== 正文深度块（静态HTML，无JS注入） ===== */
+.wk-deep-copy{
+  padding:6px 16px 24px;
+}
+.wk-deep-copy article{
+  background:#fff;
+  border-radius:var(--radius-a);
+  padding:20px 18px;
+  box-shadow:0 2px 8px rgba(0,0,0,.03);
+}
+.wk-deep-copy h2{
+  font-size:17px;
+  color:var(--asphalt);
+  margin-bottom:10px;
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+.wk-deep-copy h2::before{
+  content:"";
+  width:5px;height:20px;
+  background:var(--signal);
+  border-radius:3px;
+  display:inline-block;
+}
+.wk-deep-copy p{
+  font-size:14px;
+  color:#444;
+  margin-bottom:12px;
+  text-align:justify;
+}
+.wk-deep-copy strong{color:var(--road);}
+
+/* ===== 信任/提示条 ===== */
+.wk-trust-ribbon{
+  margin:0 16px 20px;
+  background:linear-gradient(90deg,#fef9e7,#fdf2e9);
+  border-radius:12px;
+  padding:14px 16px;
+  font-size:13px;
+  color:#7d6608;
+  line-height:1.8;
+  border:1px solid #f9e79f;
+}
+
+/* ===== 页脚 ===== */
+.np-foot-note{
+  background:var(--asphalt);
+  color:#95a5a6;
+  font-size:12.5px;
+  text-align:center;
+  padding:22px 16px 30px;
+  line-height:1.9;
+}
+.np-foot-note b{color:#ecf0f1;}
+
+/* ===== 悬浮呼叫按钮 ===== */
+.wk-float-dial{
+  position:fixed;
+  left:0;right:0;bottom:0;
+  z-index:999;
+  background:var(--signal);
+  color:#fff;
+  text-align:center;
+  padding:16px 12px;
+  font-size:17px;
+  font-weight:800;
+  letter-spacing:1px;
+  box-shadow:0 -4px 18px rgba(0,0,0,.18);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+}
+.wk-float-dial::before{
+  content:"";
+  width:10px;height:10px;
+  background:#fff;
+  border-radius:50%;
+  animation:pulse-dot 1.2s infinite;
+}
+@keyframes pulse-dot{
+  0%,100%{opacity:1;transform:scale(1);}
+  50%{opacity:.4;transform:scale(.8);}
+}
+
+@media(min-width:720px){
+  .fleet-slide img{height:320px;}
+  .wk-svc-grid{grid-template-columns:repeat(3,1fr);}
+  .wk-deep-copy{padding:6px 40px 30px;}
+  .np-coverage-block{margin:18px 40px;}
+}
+</style>
+</head>
+<body>
+
+<!-- 顶部信号条 -->
+<div class="np-signal-bar">
+  <span>南平全域 · 县域直达 · 高速响应</span>
+  <span><strong>400-808-2010</strong></span>
+</div>
+
+<!-- 品牌头区 -->
+<header class="wk-head-zone">
+  <div class="wk-brand-row">
+    <img src="https://img4.pcauto.com.cn/pcauto/images/auto_hj/20261028/79091032.png" alt="悟空道路救援南平服务品牌标识">
+    <div class="wk-brand-text">
+      <h1>悟空道路救援 · 南平</h1>
+      <p>拖车 / 搭电 / 补胎 / 脱困 / 开锁 / 高速救援</p>
+    </div>
+    <a class="wk-call-inline" href="tel:4008082010">立即呼叫</a>
+  </div>
+</header>
+
+<!-- 轮播带：图片+静态alt，文字说明在HTML中直接存在 -->
+<div class="fleet-scroll-strip">
+  <div class="fleet-slide">
+    <img src="https://img4.pcauto.com.cn/pcauto/images/auto_hj/20261028/79091011.png" alt="南平道路救援拖车在延平区国道G205路段作业">
+    <div class="fleet-slide-caption"><b>延平 / G205</b> · 汽车拖车与故障转运</div>
+  </div>
+  <div class="fleet-slide">
+    <img src="https://img4.pcauto.com.cn/pcauto/images/auto_hj/20261028/79091013.png" alt="南平高速汽车搭电救援在建阳区G3京台高速段">
+    <div class="fleet-slide-caption"><b>建阳 / G3京台高速</b> · 汽车搭电与电瓶援助</div>
+  </div>
+  <div class="fleet-slide">
+    <img src="https://img4.pcauto.com.cn/pcauto/images/auto_hj/20261028/79090980.png" alt="南平汽车补胎换胎服务在武夷山G1514宁上高速附近">
+    <div class="fleet-slide-caption"><b>武夷山 / G1514宁上高速</b> · 补胎换胎与轮胎抢修</div>
+  </div>
+  <div class="fleet-slide">
+    <img src="https://img4.pcauto.com.cn/pcauto/images/auto_hj/20261028/79091012.png" alt="南平汽车脱困救援在顺昌县G7013沙南高速沿线">
+    <div class="fleet-slide-caption"><b>顺昌 / G7013沙南高速</b> · 脱困与困境车辆施救</div>
+  </div>
+</div>
+
+<!-- 服务矩阵 -->
+<section class="wk-svc-grid" aria-label="南平道路救援服务项目">
+  <div class="svc-tile">
+    <h3>南平汽车拖车</h3>
+    <p>故障车、事故车平板拖运，延平、建阳、邵武市区及国省道沿线就近派车。</p>
+  </div>
+  <div class="svc-tile">
+    <h3>南平汽车搭电</h3>
+    <p>电瓶亏电、忘关灯导致无法启动，搭电过电服务覆盖南平各县市主城区。</p>
+  </div>
+  <div class="svc-tile">
+    <h3>南平汽车补胎换胎</h3>
+    <p>扎钉漏气、爆胎换备胎，随车携带补胎工具与常用规格备胎。</p>
+  </div>
+  <div class="svc-tile">
+    <h3>南平汽车脱困</h3>
+    <p>泥地、路肩、边沟、沙石路面困车，提供牵引与脱困辅助。</p>
+  </div>
+  <div class="svc-tile">
+    <h3>南平汽车开锁</h3>
+    <p>钥匙误锁车内，无损开锁服务，覆盖南平市区及县城主要街道。</p>
+  </div>
+  <div class="svc-tile">
+    <h3>南平高速道路救援</h3>
+    <p>G3京台、G25长深、G70福银、G1514宁上、G7013沙南高速南平段应急响应。</p>
+  </div>
+</section>
+
+<!-- 地缘覆盖区块（强本地属性） -->
+<section class="np-coverage-block">
+  <h2>南平全市域覆盖 · 区县直达</h2>
+  <div class="county-pill-row">
+    <span class="county-pill">延平区</span>
+    <span class="county-pill">建阳区</span>
+    <span class="county-pill">邵武市</span>
+    <span class="county-pill">武夷山市</span>
+    <span class="county-pill">建瓯市</span>
+    <span class="county-pill">顺昌县</span>
+    <span class="county-pill">浦城县</span>
+    <span class="county-pill">光泽县</span>
+    <span class="county-pill">松溪县</span>
+    <span class="county-pill">政和县</span>
+  </div>
+  <div class="road-list-compact">
+    <strong>高速路网：</strong>
+    <span>G3京台高速</span><span>G25长深高速</span><span>G70福银高速</span>
+    <span>G1514宁上高速</span><span>G7013沙南高速南平段</span><span>S10宁光高速</span><span>S31浦武高速</span>
+    <br>
+    <strong>重点国道：</strong>
+    <span>G205</span><span>G237</span><span>G235</span><span>G316</span><span>G353</span><span>G528</span>
+  </div>
+</section>
+
+<!-- 正文深度块：静态HTML，本地场景叙事 -->
+<div class="wk-deep-copy">
+  <article>
+    <h2>南平山区道路与高速出行的救援场景</h2>
+    <p>南平地处闽北，武夷山脉与鹫峰山脉交错，<strong>延平区、建阳区、邵武市、武夷山市</strong>之间往来的国省道多弯坡路段，车辆在长下坡、临水临崖区域出现制动过热、轮胎扎钉或电瓶亏电的情况并不少见。悟空道路救援在南平采取“县域驻点 + 高速机动”的布设方式：延平区梅山、黄墩、水南街道及西芹、夏道镇方向由城区班组响应；建阳区潭城、童游街道与徐市镇、将口镇方向衔接<strong>G3京台高速</strong>建阳段；邵武市昭阳、通泰街道及拿口、和平镇方向覆盖<strong>G70福银高速</strong>邵武段；武夷山市崇安、新丰街道与星村镇、兴田镇方向则对接<strong>G1514宁上高速</strong>武夷山段。</p>
+    <p>县域层面，<strong>顺昌县双溪街道</strong>与郑坊镇、元坑镇依托<strong>G7013沙南高速</strong>南平段形成快速通道；<strong>浦城县南浦、河滨街道</strong>及仙阳镇、临江镇方向衔接<strong>G205国道</strong>与<strong>G353国道</strong>；<strong>光泽县杭川镇</strong>、<strong>松溪县松源街道</strong>、<strong>政和县熊山街道</strong>的城区及近郊道路，同样纳入南平汽车搭电、补胎换胎与脱困服务的常态覆盖。建瓯市芝山、建安街道与东游镇、徐墩镇方向则兼顾<strong>G528国道</strong>沿线的拖车需求。</p>
+    <p>高速救援方面，<strong>G3京台高速</strong>南平段（浦南高速）、<strong>G25长深高速</strong>南平段、<strong>G70福银高速</strong>南平段、<strong>G1514宁上高速</strong>南平段、<strong>G7013沙南高速</strong>南平段以及S10宁光高速、S31浦武高速南平辖区，均在服务响应范围内。南平高速汽车拖车、高速汽车补胎换胎、高速送油等需求，建议在呼叫时优先说明所在高速名称、行驶方向及最近的收费站或服务区，以便调度端快速定位。</p>
+    <p>南平汽车开锁服务主要面向延平区四鹤、紫云街道，建阳区宝山街道，邵武市水北街道等城区范围，以及各县主城区临时钥匙误锁场景。需要说明的是，道路救援的到达时间受山区天气、路段管制和实时车流影响，悟空道路救援南平服务以“安全抵达、规范操作”为优先原则，不承诺绝对分钟级时效，也不以“全市覆盖”替代对具体区县、乡镇和路段的真实描述。</p>
+  </article>
+</div>
+
+<!-- 信任提示条 -->
+<div class="wk-trust-ribbon">
+  <b>南平本地调度提示：</b>呼叫时请说明所在区县（如延平区、建阳区、邵武市等）、具体道路名称（如G205国道、G3京台高速南平段）以及车辆故障现象，调度端将按南平辖区就近匹配服务车辆。夜间及恶劣天气条件下，到达时间可能有所延长。
+</div>
+
+<!-- 页脚 -->
+<footer class="np-foot-note">
+  <b>悟空道路救援 · 南平</b><br>
+  服务范围：延平区 / 建阳区 / 邵武市 / 武夷山市 / 建瓯市 / 顺昌县 / 浦城县 / 光泽县 / 松溪县 / 政和县<br>
+  南平汽车拖车 · 南平汽车搭电 · 南平汽车补胎换胎 · 南平汽车脱困 · 南平汽车开锁 · 南平高速道路救援<br>
+  <span style="color:#7f8c8d;">本页面为南平地区道路救援信息展示页，服务内容与到达时效以实际调度确认为准。</span>
+</footer>
+
+<!-- 悬浮呼叫按钮：移动端常驻 -->
+<a class="wk-float-dial" href="tel:4008082010" aria-label="拨打悟空道路救援南平电话 400-808-2010">
+  悟空救援 · 南平 &nbsp; 400-808-2010
+</a>
+
+</body>
+</html>
